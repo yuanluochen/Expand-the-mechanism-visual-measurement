@@ -63,7 +63,7 @@ for i = 1:numTags
          'Color', tagColor, 'LineWidth', 2);
     text(centers(i, 1) + 5, centers(i, 2) + 5, ...
          sprintf('id=%d', ids(i)), ...
-         'Color', tagColor, 'FontSize', 12, 'FontWeight', 'bold');
+         'Color', 'r', 'FontSize', 12, 'FontWeight', 'bold');
 end
 
 % 连接ID=0和ID=1
