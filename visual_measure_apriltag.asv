@@ -68,7 +68,7 @@ U = center_tag(1) - center_src(1);
 V = center_tag(2) - center_src(2);
 
 % 绘制箭头（注意最后的 0 用于关闭自动缩放，确保箭头精确到达终点）
-quiver(center_src(1), center_src(2), U, V, 0, 'LineWidth', 3, 'Color', 'r', 'MaxHeadSize', 0.3);
+quiver(center_src(1), center_src(2), U, V, 7, 'LineWidth', 4, 'Color', 'r');
 
 
 % ------------------ 角度计算 ------------------
